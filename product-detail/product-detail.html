@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuốc nhà Võ</title>
+    <script src="https://kit.fontawesome.com/1b99fd25e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="icon" href="../imgs/logo.png" type="image/x-icon">    <link rel="stylesheet" href="./product-detail.css">
+
+
+</head>
+<body>
+  <div class="header">
+    <ul>
+      <li>
+        <i class="fa-solid fa-location-dot"></i>
+        Hệ thống nhà thuốc
+      </li>
+      <li>
+        <i class="fa-solid fa-heart"></i>
+        Yêu thích
+      </li>
+      <li>
+        <i class="fa-solid fa-user"></i>
+        Đăng nhập
+      </li>
+      <li>
+        
+      </li>
+    </ul>
+  </div>
+
+    <div class="menu">
+      <div class="top-menu">
+        <div class="logo">
+         <a href="../home/home.html"><img src="../imgs/logo.png"></a> 
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="text" placeholder="Tìm kiếm">
+        </div>
+        <div class="wrapper">
+          <ul>
+              <li><i class="fa-solid fa-box-open"></i><span>Tra cứu đơn hàng</span> </li>
+              <li><i class="fa-solid fa-cart-shopping"></i><span>Giỏ hàng</span> </li>
+          </ul>
+        </div>  
+      </div>
+      <div class="bottom-menu">
+        <ul>
+            <li>Thuốc chữa bệnh</li>
+            <li>Thực phẩm chức năng
+                <ul>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Sinh lý - Nội tiết tố
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/suc-khoe-tim-mach.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Sức khỏe tim mạch
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/ho-tro-tieu-hoa.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Hỗ trợ tiêu hóa
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/than-kinh-nao.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Thần kinh não
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/ho-tro-dieu-tri.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Hỗ trợ điều trị
+                      </div>
+                    </li>
+                    <li style="width: 300px">
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Cải thiện tăng cường chức năng
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/lam-dep.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Hỗ trợ làm đẹp
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/vitamin-va-khoang-chat.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Vitamin & Khoáng chất
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thuc-pham-chuc-nang/dinh-duong.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Dinh dưỡng
+                      </div>
+                    </li>
+                </ul>
+            </li>
+            <li>Dược mĩ phẩm
+                <ul>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/duoc-my-pham/cham-soc-co-the.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Chăm sóc cơ thể
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/duoc-my-pham/giai-phap-lan-da.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Giải pháp làn da
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/duoc-my-pham/cham-soc-da-mat.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Chăm sóc da mặt
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/duoc-my-pham/cham-soc-toc-da-dau.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Chăm sóc tóc - da đầu
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/duoc-my-pham/cham-soc-da-vung-mat.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Chăm sóc da vùng mắt
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/duoc-my-pham/my-pham-trang-diem.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Mỹ phẩm trang điểm
+                      </div>
+                    </li>
+                    <li style="width: 240px">
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/duoc-my-pham/san-pham-tu-thien-nhien.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Sản phẩm từ thiên nhiên
+                      </div>
+                    </li>
+                </ul>
+            </li>
+            <li>Thiết bị y tế
+                <ul>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thiet-bi-y-te/dung-cu-y-te.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Dụng cụ y tế
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thiet-bi-y-te/khau-trang.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Khẩu trang
+                      </div>
+                    </li>
+                    <li style="width: 180px">
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thiet-bi-y-te/dung-cu-theo-doi.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Dụng cụ theo dõi
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/thiet-bi-y-te/dung-cu-y-te.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Dụng cụ sơ cứu
+                      </div>
+                    </li>
+                </ul>
+            </li>
+            <li>Chăm sóc cá nhân
+                <ul>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/cham-soc-ca-nhan/ho-tro-tinh-duc.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Hỗ trợ tình dục
+                      </div>
+                    </li>
+                    <li style="width: 220px">
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/cham-soc-ca-nhan/cham-soc-rang-mieng.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Chăm sóc răng miệng
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/cham-soc-ca-nhan/do-dung-gia-dinh.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Đồ dùng gia đình
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/cham-soc-ca-nhan/thuc-pham-do-uong.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Thực phẩm - Đồ uống
+                      </div>
+                    </li>
+                    <li>
+                      <div class="bottom-menu-img">
+                        <img src="../imgs/navbar/cham-soc-ca-nhan/hang-tong-hop.png">
+                      </div>
+                      <div class="bottom-menu-title">
+                        Hàng tổng hợp
+                      </div>
+                    </li>
+                </ul>
+            </li>
+            <li>Hỏi đáp</li>
+        </ul>
+      </div> 
+    </div>
+
+    <div class="product-preview">
+      <div class="breadcrums">
+        Trang chủ <div class="path">/</div> Chăm sóc cá nhân <div class="path">/</div> Thực phẩm - Đồ uống <div class="path">/</div> Kẹo cứng
+      </div>
+      <div class="preview-content">
+        <div class="preview-content-display">
+          <div class="preview-content-img">
+            <img class="drug bigImg" src="../imgs/product-detail/00018464-ngam-ho-bach-bo-mom-and-baby-tat-thanh-5x4-7543-5cc1_large.webp">
+          </div>
+
+          <div class="preview-content-img-list">
+            <ul>
+              <li>
+                <img class="drug drug-img1" src="../imgs/product-detail/00018464-ngam-ho-bach-bo-mom-and-baby-tat-thanh-5x4-7543-5cc1_large.webp">
+              </li>
+              <li>
+                <img class="drug drug-img2" src="../imgs/product-detail/00018464-ngam-ho-bach-bo-mom-and-baby-tat-thanh-5x4-5696-5cc1_large.webp">
+              </li>
+              <li>
+                <img class="drug drug-img3" src="../imgs/product-detail/00018464-ngam-ho-bach-bo-mom-and-baby-tat-thanh-5x4-1568181715.webp">
+              </li>
+              <li>
+                <img class="drug drug-img4" src="../imgs/product-detail/00018464-ngam-ho-bach-bo-mom-and-baby-tat-thanh-5x4-3342-5d78_large.webp">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="preview-content-info">
+          <div class="brand">
+            Thương hiệu: <a>Tất Thành</a>
+          </div>
+
+          <div class="title">
+            Viên Ngậm Ho Bách Bộ Mom And Baby Tất Thành giúp giảm ho, ngứa cổ (20 viên)
+          </div>
+
+          <div class="rating">
+            <div class="id">(00018464)</div>
+            <div class="response">
+              <a>0 Đánh giá</a> | <a>15 Bình luận</a>
+            </div>
+          </div>
+
+          <div class="price">
+            <p>52.000đ</p>/Hộp
+          </div>
+
+          <div class="categories">
+            <p>Danh mục:</p> <a>Kẹo cứng</a>
+          </div>
+
+          <div class="usage">
+            <span style="font-weight: 500;">Công dụng:</span> <span>Viên ngậm ho Bách Bộ Mom and Baby giúp bổ phế giảm ho, giảm đau rát họng, ngứa cổ, khản tiếng. Giúp làm giảm các triệu chứng ho gió, ho khan, ho do cảm lạnh hoặc do thay đổi thời tiết.</span>
+          </div>
+
+          <div class="contain">
+            <span style="font-weight: 500;">Quy cách:</span> <span>Hộp 5 vỉ x 4 viên</span>
+          </div>
+
+          <div class="origin">
+            <span style="font-weight: 500;">Xuất xứ thương hiệu:</span> <span>Việt Nam</span>
+          </div>
+
+          <div class="amount">
+            <div class="amount-des">Chọn số lượng</div>
+            <button class="minus" onclick="decreaseAmount()"></button>
+            <input id="number" type="text" value="1">
+            <button class="plus" onclick="increaseAmount()"></button>
+          </div>
+
+          <div class="options">
+            <button style="width: 330px; background-color: #1D48BA; margin-right: 12px;">CHỌN MUA</button>
+            <button style="width: 220px; background-color: #F59E0B;">TÌM NHÀ THUỐC</button>
+          </div>
+
+          <div class="preview-footer">
+            <img src="../imgs/product-detail/preview-footer.png" style="height: 255px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mô tả -->
+    <div class="product-description">
+      <div class="main-content">
+        <div class="main-content-title">
+          Nội Dung Chính
+        </div>
+        <ul>
+          <li>Mô tả sản phẩm</li>
+          <li>Thành phần</li>
+          <li>Công dụng</li>
+          <li>Cách dùng</li>
+          <li>Tác dụng phụ</li>
+          <li>Lưu ý</li>
+          <li>Bảo quản</li>
+        </ul>
+      </div>
+      <div class="article">
+        <div class="article-title">
+          Mô tả sản phẩm Viên ngậm ho Bách Bộ Mom And Baby
+        </div>
+        <div class="article-description">
+          <span class="main-header">Mất ngủ do ho?</span>
+          <span class="paragraph">
+            Ngứa cổ, rát họng mỗi khi thay đổi thời tiết ảnh hưởng tiêu cực đến sức khỏe và cuộc sống. Tình trạng ho đêm, ho kéo dài khiến thức giấc về đêm nếu kéo dài thì có thể dẫn đến rối loạn giấc ngủ.
+          </span>
+          <img src="../imgs/product-detail/ngam-ho-bach-bo-mom-and-baby-tat-thanh-1.jpg">
+          <span class="img-des">
+            Ho nhiều ảnh hưởng đến cuộc sống của bạn
+          </span>
+          <span class="paragraph">
+            Ho là một cách để bảo vệ đường hô hấp mỗi khi khí quản bị viêm hoặc bị kích thích. Đây là triệu chứng của nhiễm trùng đường hô hấp trên, hen suyễn hoặc các chứng bệnh khác. Các cơn ho kéo dài nhiều ngày không chỉ ảnh hưởng tiêu cực đến cuộc sống mà còn là triệu chứng của những bệnh lý nguy hiểm.
+          </span>
+          <span class="note">
+            Thông thường, nếu chỉ do khi quản bị kích thích thì để một thời gian thì triệu chứng ho sẽ thuyên giảm. Tuy nhiên, nếu khí quản bị viêm thì nên sử dụng viên ngậm để chống viêm và tiêu đờm hiệu quả.
+          </span>
+          <span class="main-header">
+            Viên ngậm ho Bách Bộ Mom And Baby
+          </span>
+          <span class="sub-header">
+            Giảm ho gió, ho khan, ho do cảm lạnh
+          </span>
+          <span class="paragraph">
+            Viên ngậm ho Bách Bộ Mom And Baby là giải pháp làm giảm triệu chứng ngứa cổ, đau rát, ho gió, ho khan do thay đổi thời tiết. Viên ngậm chứa chiết xuất từ Cỏ ngọt có vị ngọt thanh và người tiểu đường có thể sử dụng được.
+          </span>
+          <img src="../imgs/product-detail/ngam-ho-bach-bo-mom-and-baby-tat-thanh-2.jpg">
+          <span class="img-des">
+            Viên ngậm Mom And Baby giảm ho gió, ho khan, ho do cảm lạnh
+          </span>
+          <span class="paragraph">
+            Do đặc thù công việc, những người làm nghề giáo viên, ca sĩ, phát thanh viên và MC thường phải nói và hát nhiều dẫn đến viêm họng kéo dài. Bên cạnh đó, cũng có trường hợp do thay đổi thời tiết khiến khí quản bị kích thích gây ho gió, ho khan hay ho có đờm. Nếu để ho kéo dài thì sẽ làm nghiêm trọng hơn tình trạng của bạn.
+          </span>
+          <span class="paragraph">
+            Viên ngậm ho Bách Bộ Mom And Baby Tất Thành có thành phần từ tự nhiên có công dụng điều phế, giảm ho, chống viêm và giảm ngứa cổ rát họng. Viên ngậm có vị ngọt nhẹ, người lớn hay trẻ em đều có thể sử dụng.
+          </span>
+          <span class="sub-header">
+            Hỗ trợ điều trị viêm họng, khàn tiếng hiệu quả
+          </span>
+          <span class="paragraph">
+            Thành phần cao Kha tử có tác dụng hỗ trợ điều trị viêm họng, khản tiếng và giảm ho hiệu quả. Hoạt chất polysaccharid trong Kha tử có tác dụng chống ho mạnh hơn so với codein. Bên cạnh đó, Kha tử có chứa Alloyl và retrovirus có tác dụng chống virus, hỗ trợ miễn dịch và giúp phục hồi đường hô hấp nhiễm trùng cấp tính.
+          </span>
+          <span class="sub-header">
+            Tác dụng nhuận phế, trừ đàm
+          </span>
+          <span class="paragraph">
+            Thành phần cao Xuyên bối mẫu có tác dụng nhuận phế trừ đờm, giảm ho và thanh nhiệt cơ thể. Xuyên bối mẫu kết hợp với các thành phần khác giúp điều trị ho gió, ho khan, ho có đờm, ho do mẫn cảm với thời tiết, đặc biệt là ho dai dẳng nhiều ngày.
+          </span>
+          <span class="sub-header">
+            Hỗ trợ trị hen suyễn do nhiệt
+          </span>
+          <span class="paragraph">
+            Viên ngậm ho Bách Bộ Mom And Baby được bào chế từ cao Tỳ bà diệp giàu saponin, vitamin B, axit ursolic, axit oleanic và caryophylin. Hoạt chất từ Tỳ bà diệp có tác dụng thanh phế hòa vị, tiêu đờm giúp giảm tức ngực, ho suyễn do nhiệt; trị ho và hen suyễn; trị buồn nôn do nhiệt dạ dày…
+          </span>
+          <span class="note">
+            Ho kéo dài có thể ảnh hưởng tiêu cực đến công việc, sức khỏe và cuộc sống. Sử dụng viên ngậm ho Bách Bộ Mom And Baby Tất Thành với thành phần từ thảo dược thiên nhiên là cách đơn giản nhưng hiệu quả giúp giảm ngứa cổ, đau họng, ho khan, ho gió, ho đờm, ho do thay đổi thời tiết… Giảm ho giúp cuộc sống trở nên dễ chịu hơn.
+          </span>
+          <span class="note">
+            Viên Ngậm Ho Bách Bộ Mom And Baby được bán độc quyền bởi Nhà thuốc Long Châu.
+          </span>
+          <span class="main-header">
+            Thành phần của Viên ngậm ho Bách Bộ Mom And Baby
+          </span>
+          <img src="../imgs/product-detail/ingredient.png">
+          <span class="main-header">
+            Công dụng của Viên ngậm ho Bách Bộ Mom And Baby
+          </span>
+          <span class="paragraph">
+            Viên ngậm ho Bách Bộ Mom and Baby giúp bổ phế giảm ho, giảm đau rát họng, ngứa cổ, khản tiếng.
+          </span>
+          <span class="paragraph">
+            Giúp làm giảm các triệu chứng ho gió, ho khan, ho do cảm lạnh hoặc do thay đổi thời tiết.
+          </span>
+          <span class="main-header">
+            Cách dùng của Viên ngậm ho Bách Bộ Mom And Baby
+          </span>
+          <div class="sub-header">
+            Cách dùng
+          </div>
+          <span class="paragraph">
+            Ngậm trong miệng đến khi tan hết.
+          </span>
+          <span class="paragraph">
+            Ngậm trong miệng đến khi tan hết.
+          </span>
+          <span class="paragraph">
+            Người lớn: Mỗi lần 1 viên, 2 - 3 giờ ngậm 1 lần.
+          </span>
+          <div class="sub-header">
+            Đối tượng sử dụng
+          </div>
+          <span class="paragraph">
+            Viên ngậm ho Bách Bộ Mom and Baby dùng trong các trường hợp:
+          </span>
+          <span class="paragraph">
+            Người bị ngứa cổ, đau rát họng, khản tiếng do viêm họng hoặc do đặc thù công việc phải nói nhiều (giáo viên, ca sĩ, phát thanh viên)
+          </span>
+          <span class="paragraph">
+            Người bị ho gió, ho khan, ho do cảm lạnh hoặc do thay đổi thời tiết.
+          </span>
+          <div class="paragraph">
+            Với thành phần đường chiết xuất từ Cỏ Ngọt (đường Isomalt) dùng được cho người tiểu đường.
+          </div>
+          <span class="sub-header">
+            Tác dụng không mong muốn của Viên ngậm ho Bách Bộ Mom And Baby
+          </span>
+          <span class="paragraph">
+            Chưa có thông tin về tác dụng phụ của sản phẩm.
+          </span>
+          <span class="reminder">
+            <span class="reminder-title">
+              Lưu ý của Viên ngậm ho Bách Bộ Mom And Baby
+            </span>
+            <span class="reminder-paragraph">
+              Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.
+            </span>
+            <span class="reminder-paragraph">
+              Đọc kỹ hướng dẫn sử dụng trước khi dùng.
+            </span>
+          </span>
+          <span class="main-header">
+            Bảo quản
+           </span>
+           <span class="paragraph">
+             Bảo quản nơi khô ráo, thoáng mát, nhiệt độ dưới 30 độ C, tránh ánh nắng trực tiếp từ mặt trời.
+           </span>
+           <Span class="paragraph">
+             Để xa tầm tay trẻ em.
+           </Span>
+        </div>
+      </div>
+
+      <!-- Bình luận  -->
+      <div class="comment-bag">
+        <div class="comment-section">
+          <div class="comment-title">
+            Bình luận
+          </div>
+          <div class="comment-container">
+            <textarea class="comment-input" placeholder="Nhập nội dung câu hỏi (Vui lòng gõ chữ tiếng Việt có dấu)..."></textarea>
+            <button class="comment-btn">GỬI BÌNH LUẬN</button>
+          </div>
+          <div class="comment-list">
+            <ul>
+              <li>
+                <div class="comment-item">
+                  <div class="request">
+                    <img src="../imgs/product-detail/avatar.jpg" style="width: 48px; height: 48px; border-radius: 50%; margin-right: 16px;">
+                    <div class="request-info">
+                      <div class="request-name">
+                        <span>Ho Xuan Huong</span>
+                        <span class="request-date">
+                          1 tuần trước
+                        </span>
+                      </div>
+                      <div class="request-content">
+                        Phụ nữ có thai ngậm đc k ạ
+                      </div>
+                      <div class="request-react">
+                        <span>Trả lời</span>
+                        <span class="like-icon">Thích (3)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="response-list">
+                    <div class="respose-item">
+                      <div class="response-name">
+                        <span>Thaont135</span>
+                        <span class="response-date">
+                          1 tuần trước
+                        </span>
+                      </div>
+                      <div class="response-content">
+                        Dạ ngậm bách bộ bầu không ngậm được ạ. Bạn vui lòng liên hệ tổng đài miễn phí 18006928 để được tư vấn và hỗ trợ. Thân mến!
+                      </div>
+                      <div class="response-react">
+                        <span>Trả lời</span>
+                        <span class="like-icon">Thích (3)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="comment-item">
+                  <div class="request">
+                    <img src="../imgs/product-detail/avatar.jpg" style="width: 48px; height: 48px; border-radius: 50%; margin-right: 16px;">
+                    <div class="request-info">
+                      <div class="request-name">
+                        <span>Ho Xuan Huong</span>
+                        <span class="request-date">
+                          1 tuần trước
+                        </span>
+                      </div>
+                      <div class="request-content">
+                        Phụ nữ có thai ngậm đc k ạ
+                      </div>
+                      <div class="request-react">
+                        <span>Trả lời</span>
+                        <span class="like-icon">Thích (3)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="response-list">
+                    <div class="respose-item">
+                      <div class="response-name">
+                        <span>Thaont135</span>
+                        <span class="response-date">
+                          1 tuần trước
+                        </span>
+                      </div>
+                      <div class="response-content">
+                        Dạ ngậm bách bộ bầu không ngậm được ạ. Bạn vui lòng liên hệ tổng đài miễn phí 18006928 để được tư vấn và hỗ trợ. Thân mến!
+                      </div>
+                      <div class="response-react">
+                        <span>Trả lời</span>
+                        <span class="like-icon">Thích (3)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="comment-item">
+                  <div class="request">
+                    <img src="../imgs/product-detail/avatar.jpg" style="width: 48px; height: 48px; border-radius: 50%; margin-right: 16px;">
+                    <div class="request-info">
+                      <div class="request-name">
+                        <span>Ho Xuan Huong</span>
+                        <span class="request-date">
+                          1 tuần trước
+                        </span>
+                      </div>
+                      <div class="request-content">
+                        Phụ nữ có thai ngậm đc k ạ
+                      </div>
+                      <div class="request-react">
+                        <span>Trả lời</span>
+                        <span class="like-icon">Thích (3)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="response-list">
+                    <div class="respose-item">
+                      <div class="response-name">
+                        <span>Thaont135</span>
+                        <span class="response-date">
+                          1 tuần trước
+                        </span>
+                      </div>
+                      <div class="response-content">
+                        Dạ ngậm bách bộ bầu không ngậm được ạ. Bạn vui lòng liên hệ tổng đài miễn phí 18006928 để được tư vấn và hỗ trợ. Thân mến!
+                      </div>
+                      <div class="response-react">
+                        <span>Trả lời</span>
+                        <span class="like-icon">Thích (3)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+        <!-- Footer -->
+    <div class="content-footer">
+      <footer>
+        <section class="footer">
+          <div class="brand">
+            <div class="h5">
+              <img src="../imgs/footer/logo-light.png" height="80px" alt="">
+              THUỐC NHÀ VÕ
+            </div>
+            <p>Trực thuộc Công ty cổ phần bán lẻ kỹ thuật số FPT – thành viên Tập đoàn FPT, hệ thống Thuốc nhà Võ là một trong những chuỗi bán lẻ dược phẩm uy tín tại Việt Nam.</p>
+            <div class="social">
+              <a href="#twitter" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="none" viewBox="0 0 20 16">
+                  <path fill="#F2C855" d="M6.038 16c7.246 0 11.208-6.155 11.208-11.492 0-.175-.003-.35-.011-.523A8.127 8.127 0 0 0 19.2 1.894a7.702 7.702 0 0 1-2.262.636A4.038 4.038 0 0 0 18.67.296c-.773.47-1.62.802-2.501.98A3.89 3.89 0 0 0 13.293 0c-2.175 0-3.94 1.809-3.94 4.039 0 .317.035.625.103.92C6.182 4.792 3.28 3.184 1.336.74a4.107 4.107 0 0 0-.533 2.03c0 1.402.695 2.639 1.753 3.363a3.837 3.837 0 0 1-1.784-.505v.051c0 1.956 1.357 3.59 3.16 3.96a3.853 3.853 0 0 1-1.78.069c.502 1.605 1.956 2.773 3.68 2.805A7.78 7.78 0 0 1 0 14.185 10.951 10.951 0 0 0 6.038 16"/>
+                </svg>
+              </a>
+              <a href="#fb" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" fill="none" viewBox="0 0 11 20">
+                  <path fill="#F2C855" d="m10.009 11.249.555-3.618h-3.47V5.284c0-.99.484-1.955 2.04-1.955h1.577V.244S9.28 0 7.907 0c-2.858 0-4.73 1.733-4.73 4.871v2.76H0v3.618h3.178V20h3.91v-8.751h2.92Z"/>
+                </svg>
+              </a>
+              <a href="#youtube" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" fill="none" viewBox="0 0 18 14">
+                  <path fill="#F2C855" d="m9.37 13.043-3.6-.066c-1.166-.023-2.334.023-3.477-.215C.554 12.407.43 10.666.303 9.205a24.955 24.955 0 0 1 .225-6.181c.19-1.143.934-1.825 2.086-1.899C6.5.855 10.413.888 14.29 1.013c.41.012.822.075 1.226.147 1.994.349 2.042 2.322 2.172 3.984a22.587 22.587 0 0 1-.172 5.032c-.198 1.38-.576 2.538-2.172 2.65-2 .146-3.953.263-5.957.226 0-.009-.012-.009-.018-.009ZM7.254 9.55c1.506-.865 2.984-1.716 4.482-2.575-1.51-.865-2.984-1.716-4.482-2.575v5.15Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="about">
+            <div class="h5">Về chúng tôi</div>
+            <a href="#">Giới thiệu</a>
+            <a href="#">Hệ thống cửa hàng</a>
+            <a href="#">Quy chế hoạt động</a>
+            <a href="#">Tra cứu đơn hàng</a>
+          </div>
+          <div class="subjects">
+            <div class="h5">Danh mục</div>
+            <a href="#">Thực phẩm chức năng</a>
+            <a href="#">Dược mĩ phẩm</a>
+            <a href="#">Chăm sóc cá nhân</a>
+            <a href="#">Thiết bị y tế</a>
+            <a href="#">Thuốc</a>
+            <a href="#">Hỏi đáp</a>
+          </div>
+          <div class="product">
+            <div class="h5">Thực phẩm chức năng</div>
+            <a href="#">Sinh lý - Nội tiết tố</a>
+            <a href="#">Sức khỏe tim mạch</a>
+            <a href="#">Hỗ trợ điều trị</a>
+            <a href="#">Thần kinh não</a>
+            <a href="#">Khác...</a>
+          </div>
+        </section>
+    
+        <section class="copyright">
+          <p><span>©</span> 2022 Rights Reserved, Taqwah</p>
+          <p>
+            <a href="#privacy">Privacy</a>
+            |
+            <a href="#terms">Terms & Conditions</a>
+            |
+            <a href="#security">Security & Privacy by Taqwah Digital</a>
+          </p>
+        </section>
+      </footer>
+    </div>
+
+    </div>
+    <script src="./product-detail.js"></script>
+</body>
+</html>
