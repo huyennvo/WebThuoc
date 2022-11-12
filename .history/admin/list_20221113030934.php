@@ -1,4 +1,3 @@
-<!-- php -S localhost:8888 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
